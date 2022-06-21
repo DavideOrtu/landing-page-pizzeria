@@ -9,31 +9,34 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:black;
+    background: url('./assets/pizza.jpg');
+    background-size:cover;
     max-width: 900px;
     margin: 0 auto;
 }
 
 .logo {
-    background: white;
+    background: #8C683B;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+/*Pizzeria da Davide*/
 .logo h1 {
-    color: black;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size: 3rem;
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 2.8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
-
+/*Richiedi il menu delle nostre pizze!
+La nostra è una pizza innovativa e utilizziamo solamente prodotti del territorio
+ordinando online avrai uno sconto del 10%*/
 .header{
-   
+
+    margin: 32px 0;
+    width: 80%;
     text-transform: uppercase;
     color: white;
     text-shadow: -1px 0 rgb(237, 93, 10), 0 1px rgb(237, 6, 6), 1px 0 rgb(230, 14, 14), 0 -1px #000;
@@ -44,41 +47,77 @@ body {
    
 }
 
-.contatti input {
-    width: 230px;
+.header p {
+  
+  margin: 0;
+  text-align: center;
+  margin: 8px 0;
 }
 
-.contatti button {
+/*Inserisci il tuo numero*/
+.contatti input {
     width: 230px;
-    background-color: rgb(45, 201, 244);
+    height: 32px;
+    padding: 0 8px;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+/*Ti chiamiamo noi*/
+.contatti button {
+    padding: 8px;
+    width: 230px;
+    background-color: rgb(0, 91, 237);
     color: white;
     border-radius: 5px;
-    font-weight: bold;
+    margin: 8px;
 }
-.diconoDiNoi{
-  font-size: 30px;
-  color: white;
-    text-shadow: -1px 0 rgb(237, 93, 10), 0 1px rgb(237, 6, 6), 1px 0 rgb(230, 14, 14), 0 -1px #000;
-}
-.feedback{
-  background-color: white;
-  height: 50px;
-  width: 600px;
-  margin: 8px 0;
-  padding: 0 16px;
-  border: 1px solid orange;
-  border-radius: 5px;
+
+/*Accetto i termini e le condizioni ai sensi di legge*/
+.termini-servizio {
+  margin: 8px;
   display: flex;
+  color: white;
+  font-size: 8px;
+  position: absolute;
+  left: 740px;
+  top: 450px;
   align-items: center;
-  justify-content: space-evenly;
+  flex-direction: row;
+  
 }
-.partners {
+
+/*Dicono di noi*/
+.diconoDiNoi{
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px 0 rgb(237, 93, 10), 0 1px rgb(237, 6, 6), 1px 0 rgb(230, 14, 14), 0 -1px #000;
+  }
+
+  /*Siamo tra le 10 migliori pizzerie della città*/
+.feedback{
+
     background-color: white;
     height: 50px;
     width: 600px;
     margin: 8px 0;
     padding: 0 16px;
-    border: 1px solid orange;
+    border: 1px solid #8C683B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*Vari loghi delle aziende partner*/
+.partners {
+
+    background-color: white;
+    height: 50px;
+    width: 600px;
+    margin: 8px 0;
+    padding: 0 16px;
+    border: 1px solid #8C683B;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -86,21 +125,24 @@ body {
     
 }
 
+.partners img {
+  margin: 16px;
+}
+
+/*Questa è una promozione offerta da davide pizza's*/
 .footer {
     text-align: center;
-    background: white;
+    background: #8C683B;
+    color: white;
+    height: 64px;
+    display: flex;
     width: 100%;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .footer div {
     width: 60%;
     margin: 0 auto;
-}
-
-.contatti button {
-    text-shadow: 1px 1px 2px darkgray;;
-    box-shadow: 2px 2px 2px darkgray;
 }
 
 
