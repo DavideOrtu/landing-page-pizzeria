@@ -22,7 +22,8 @@ window.AppState = {
       <div class="${modalClass}">
         <div class="modal-content">
           <div style="text-align:right" onclick="AppState.closeDialog()">
-            <span class="modal-close">Close</span>
+            <span class="vedi-numero">Il numero inserito è:</span>
+            <span class="modal-close">Chiudi</span>
           </div>
           <p class="modal-content">${AppState.content}</p>
         </div>
