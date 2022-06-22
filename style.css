@@ -32,7 +32,7 @@ body {
 /*Richiedi una consulenza gratuita e tu risparmi fino a 144 euro all'anno%*/
 .header{
 
-    margin: 46px 0;
+    margin: 24px 0;
     width: 80%;
     text-transform: uppercase;
     color: white;
@@ -105,9 +105,11 @@ body {
 
 /*Dicono di noi*/
 .diconoDiNoi{
-    font-size: 30px;
-    color: #1FB584;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: #1FB584;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     
   }
 
@@ -128,6 +130,10 @@ body {
   align-items: center;
   justify-content: space-evenly;
   font-family: "Helvetica";
+}
+
+.trustpilot img{
+margin:0 8px;
 }
 
 .feedback p{
