@@ -30,7 +30,8 @@ body {
    margin: 24px;
    margin-bottom: 8px;
 }
-/*Richiedi una consulenza gratuita e tu risparmi fino a 144 euro all'anno%*/
+/*Richiedi una consulenza gratuita noi troviamo l'offerta
+per la fibra perfetta per te e tu risparmi fino a 144 euro all'anno%*/
 .header{
 
   margin: 24px 0;
@@ -53,6 +54,7 @@ body {
     margin: 8px 0;
 }
 
+/*parte verde del testo sopra citato*/
 .green-text{
   
   color: #00532c;
@@ -93,7 +95,9 @@ background-color:  #1eb2db;
     
 }
 
-/*Accetto i termini e le condizioni ai sensi di legge*/
+/* Richiedendo il servizio confermo di aver letto e accettato i Termini
+e Condizioni del Sito e di aver preso visione dell' Informativa sul
+trattamento dei dati personali. Clicca qui per gestire i consensi. */
 .termini-servizio {
   margin: 8px;
   width: 500px;
@@ -116,10 +120,12 @@ background-color:  #1eb2db;
       
   }
 
+  /*immagine del wifi*/
 .wifi{
   height: 80%;
 }
 
+/*Prezzogiusto.com è al 1° posto tra le migliori aziende nella categoria Sito di comparazione dei prezzi su Trustpilot*/
 .feedback{
   background-color: white;
   min-height: 50px;
@@ -134,21 +140,21 @@ background-color:  #1eb2db;
   align-items: center;
   justify-content: space-evenly;
   font-family: "Helvetica";
+  text-align: center;
 }
 
+/*logo trustpilot*/
 .trustpilot img{
   margin:0 8px;
 }
 
-.feedback p{
-  text-align: center;
-}
-
+/*Loghi delle stelline delle recensioni*/
 .stars{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 8px;
+  
 }
 
 .trustpilot {
@@ -156,10 +162,12 @@ background-color:  #1eb2db;
   flex-direction: row;
 }
 
+/*margine tra una stella e l'altra*/
 .stars img {
   margin: 0 2px;
 }
 
+/*4.9/5 sulla base di oltre 10 mila recensioni*/
 .recensioni p {
   text-align: left;
 }
@@ -168,7 +176,7 @@ background-color:  #1eb2db;
 .partners {
 
   background-color: white;
-  height: 50px;
+  height: 80px;
   width: 600px;
   margin-bottom: 3rem;
   margin-top: 0px;
@@ -225,7 +233,7 @@ background-color:  #1eb2db;
         margin: 8px;
     }
   
-
+/*Adattamento del box feedback per la versione mobile*/
   .feedback{       
     width: 80%;
     display:flex;  
@@ -234,6 +242,7 @@ background-color:  #1eb2db;
     
   }  
 
+  /*Adattamento del box dei partners per la versione mobile*/
   .partners {
     display: flex;
     width: 80%;
