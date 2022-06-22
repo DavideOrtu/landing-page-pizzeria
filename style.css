@@ -150,27 +150,36 @@ ordinando online avrai uno sconto del 10%*/
     margin: 0 auto;
 }
 
+/*Parte responsive per mobile*/
 
-@media all and (max-width: 480px) { 
+@media all and (max-width: 610px) { 
+
+  /*Pizzeria da Davide*/
+  .logo h1{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    
+  }
     .contatti {
         display: flex;
         flex-direction: column;
     }
 
     .contatti input {
-        width: auto;
+        width: 80;
         margin: 8px;
     }
 
     .contatti button {
         width: auto;
-
         margin: 8px;
     }
     
     .partners{
       display: flex;
       flex-direction: column;
+     width: 90%;
     }
  } 
 
