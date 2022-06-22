@@ -1,2 +1,2 @@
 # landing-page-pizzeria
-Progetto landing page pizzeria da Davide
+Progetto landing page PrezzoGiusto

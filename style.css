@@ -9,42 +9,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('./assets/pizza.jpg');
+    background-image:url('/assets/19187709\ 1.png');
     background-size:cover;
     max-width: 900px;
     margin: 0 auto;
 }
 
+
 .logo {
-    background: #8C683B;
+    background:white;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-/*Pizzeria da Davide*/
-.logo h1 {
-    color: white;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    font-size: 2.8rem;
-    font-weight: bold;
-    text-transform: uppercase;
+/*Logo PrezzoGiusto*/
+.logo img {
+   width: 256px;
+   margin: 24px;
 }
-/*Richiedi il menu delle nostre pizze!
-La nostra è una pizza innovativa e utilizziamo solamente prodotti del territorio
-ordinando online avrai uno sconto del 10%*/
+/*Richiedi una consulenza gratuita e tu risparmi fino a 144 euro all'anno%*/
 .header{
 
-    margin: 32px 0;
+    margin: 46px 0;
     width: 80%;
     text-transform: uppercase;
     color: white;
-    text-shadow: -1px 0 rgb(237, 93, 10), 0 1px rgb(237, 6, 6), 1px 0 rgb(230, 14, 14), 0 -1px #000;
+    text-shadow: 2px 0 #00532c, 0 2px #00532c, 2px 0 #00532c, 0 2px #00532c;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
    
 }
 
@@ -68,10 +63,12 @@ ordinando online avrai uno sconto del 10%*/
 .contatti button {
     padding: 8px;
     width: 230px;
-    background-color: rgb(0, 67, 235);
+    background-color: #1ac8fa;
     color: white;
     border-radius: 5px;
     margin: 8px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
 }
 
 .contatti button:hover{
@@ -97,7 +94,7 @@ ordinando online avrai uno sconto del 10%*/
 .diconoDiNoi{
     font-size: 30px;
     color: white;
-    text-shadow: -1px 0 rgb(237, 93, 10), 0 1px rgb(237, 6, 6), 1px 0 rgb(230, 14, 14), 0 -1px #000;
+    text-shadow: 2px 0 #00532c, 0 2px #00532c, 2px 0 #00532c, 0 2px #00532c;
   }
 
   /*Siamo tra le 10 migliori pizzerie della città*/
@@ -108,8 +105,8 @@ ordinando online avrai uno sconto del 10%*/
     width: 600px;
     margin: 8px 0;
     padding: 0 16px;
-    border: 1px solid #8C683B;
-    border-radius: 5px;
+    border: 2px solid #35cafb;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -123,8 +120,8 @@ ordinando online avrai uno sconto del 10%*/
     width: 600px;
     margin: 8px 0;
     padding: 0 16px;
-    border: 1px solid #8C683B;
-    border-radius: 5px;
+    border: 2px solid #35cafb;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -138,12 +135,12 @@ ordinando online avrai uno sconto del 10%*/
 /*Questa è una promozione offerta da davide pizza's*/
 .footer {
     text-align: center;
-    background: #8C683B;
-    color: white;
+    background: white;
+    color: black;
     height: 64px;
     display: flex;
     width: 100%;
-    font-size: 1rem;
+    font-size: 12px;
 }
 
 .footer div {
@@ -193,6 +190,7 @@ ordinando online avrai uno sconto del 10%*/
       display: flex;
       width: 80%;
       flex-wrap: wrap;
+     
     }
  } 
 
