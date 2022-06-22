@@ -1,8 +1,12 @@
+/**
+ * Script per l'inserimento di un numero di telefono tramite l'input phoneNumber, al click del bottone 
+TI CHIAMIAMO NOI si apre il modal che permette la visione dell input inserito dall'utente
+ */
 window.AppState = {
     content: null,
     isOpen: false,
     openDialog: function (key) {
-      AppState.content = phoneNumber.value;
+      AppState.content = phoneNumber.value;  //numero di telefono
       AppState.isOpen = true;
       toggleDialog();
     },
@@ -18,6 +22,10 @@ window.AppState = {
       ? 'modal modal-shown'
       : 'modal modal-hidden';
   
+
+      /**
+       * Parte HTML del modal
+       */
     modal.innerHTML = `
       <div class="${modalClass}">
         <div class="modal-content">
