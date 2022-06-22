@@ -13,6 +13,7 @@ body {
     background-size:cover;
     max-width: 900px;
     margin: 0 auto;
+    
 }
 
 
@@ -68,7 +69,7 @@ body {
     border-radius: 5px;
     margin: 8px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1rem;
+    
 }
 
 .contatti button:hover{
@@ -82,11 +83,10 @@ body {
     display: flex;
     color: white;
     font-size: 8px;
-    position: absolute;
-    left: 740px;
-    top: 450px;
     align-items: center;
     flex-direction: row;
+    /*non funziona*/
+    word-wrap: break-word;
   
 }
 
@@ -97,6 +97,9 @@ body {
     text-shadow: 2px 0 #00532c, 0 2px #00532c, 2px 0 #00532c, 0 2px #00532c;
   }
 
+.wifi{
+  height: 80%;
+}
   /*Siamo tra le 10 migliori pizzerie della città*/
 .feedback{
 
@@ -110,6 +113,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.feedback p{
+  text-align: center;
+}
+
+.stars{
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
 }
 
 /*Vari loghi delle aziende partner*/
@@ -132,15 +146,16 @@ body {
     margin: 16px;
 }
 
-/*Questa è una promozione offerta da davide pizza's*/
+/*Prezzogiusto è al primo posto tra le migliori aziende nella categoria sito di comparazione dei prezzi su trustpilot*/
 .footer {
     text-align: center;
-    background: white;
+    background: #F3F3F3;
+    font-family: 'Univers LT Std';
     color: black;
     height: 64px;
     display: flex;
     width: 100%;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .footer div {
@@ -152,15 +167,7 @@ body {
 
 @media all and (max-width: 610px) { 
 
-  /*Pizzeria da Davide*/
-  
-  .logo h1{
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-    margin: 8px;
-    
-  }
+ 
   .contatti {
         display: flex;
         flex-direction: column;
@@ -190,6 +197,7 @@ body {
       display: flex;
       width: 80%;
       flex-wrap: wrap;
+      flex-direction: column;
      
     }
  } 
