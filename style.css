@@ -36,7 +36,6 @@ body {
     width: 80%;
     text-transform: uppercase;
     color: white;
-    
     text-shadow: -2px 0 #00532c, 0 2px #00532c, 2px 0 #00532c, 0 -2px #00532c;
     display: flex;
     flex-direction: column;
@@ -50,6 +49,13 @@ body {
     margin: 0;
     text-align: center;
     margin: 8px 0;
+}
+
+.green-text{
+  
+  color: #00532c;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; 
+ 
 }
 
 /*Inserisci il tuo numero*/
@@ -74,26 +80,25 @@ body {
     margin: 8px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
-   
-    
 }
 
+.contatti{
+  display: flex;
+}
 .contatti button:hover{
   
-    background-color: rgb(0, 91, 237);
+    background-color:  #1eb2db;
     
 }
 
 /*Accetto i termini e le condizioni ai sensi di legge*/
 .termini-servizio {
     margin: 8px;
+    width: 500px;
     display: flex;
     color: white;
     font-size: 8px;
-    
     flex-direction: row;
-    /*non funziona*/
-    word-wrap: break-word;
     font-family: 'Univers LT Std';
   
 }
@@ -109,20 +114,20 @@ body {
 .wifi{
   height: 80%;
 }
-  /*Siamo tra le 10 migliori pizzerie della città*/
-.feedback{
 
-    background-color: white;
-    height: 50px;
-    width: 600px;
-    margin: 8px 0;
-    padding: 0 16px;
-    border: 2px solid #35cafb;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: 'Helvetica';
+.feedback{
+  background-color: white;
+  min-height: 50px;
+  width: 600px;
+  margin: 8px 0;
+  padding: 0 16px;
+  border: 2px solid #35cafb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Helvetica";
 }
 
 .feedback p{
@@ -131,9 +136,22 @@ body {
 
 .stars{
   display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 8px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 8px;
+}
+
+.trustpilot {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars img {
+  margin: 0 2px;
+}
+
+.recensioni p {
+  text-align: left;
 }
 
 /*Vari loghi delle aziende partner*/
