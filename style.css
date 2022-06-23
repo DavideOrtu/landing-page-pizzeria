@@ -213,7 +213,7 @@ trattamento dei dati personali. Clicca qui per gestire i consensi. */
 
 /*Parte responsive per mobile*/
 
-@media all and (max-width: 610px) { 
+@media all and (max-width: 767px) { 
 
   .termini-servizio {
     width: auto;
@@ -312,6 +312,7 @@ trattamento dei dati personali. Clicca qui per gestire i consensi. */
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   }
 
+/*Il numero inserito è:*/
   .vedi-numero{
     display: flex;
     flex-direction: column;
